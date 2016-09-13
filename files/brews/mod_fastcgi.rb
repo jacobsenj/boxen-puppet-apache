@@ -3,7 +3,7 @@ require 'formula'
 class ModFastcgi < Formula
   url 'https://fossies.org/linux/www/apache_httpd_modules/mod_fastcgi-2.4.7-0910052141.tar.gz'
   homepage 'http://www.fastcgi.com/'
-  sha1 'b0c8cfafcd403f109738da9c62d08c0c67d023521bf0bb5a465ece40b111726d'
+  sha256 'b0c8cfafcd403f109738da9c62d08c0c67d023521bf0bb5a465ece40b111726d'
   version '2.4.7-boxen1'
 
   mirror 'https://fossies.org/linux/www/apache_httpd_modules/mod_fastcgi-2.4.7-0910052141.tar.gz'
