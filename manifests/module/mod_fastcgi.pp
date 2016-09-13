@@ -1,7 +1,7 @@
 class apache::module::mod_fastcgi {
   include apache::module::requirements
 
-  $version = '2.4.6-boxen1'
+  $version = '2.4.7-boxen1'
 
   homebrew::formula { 'mod_fastcgi':
     before => Package['boxen/brews/mod_fastcgi'],
