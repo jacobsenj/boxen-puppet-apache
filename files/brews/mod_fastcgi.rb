@@ -1,12 +1,12 @@
 require 'formula'
 
 class ModFastcgi < Formula
-  url 'http://www.fastcgi.com/dist/mod_fastcgi-2.4.6.tar.gz'
+  url 'https://fossies.org/linux/www/apache_httpd_modules/mod_fastcgi-2.4.7-0910052141.tar.gz'
   homepage 'http://www.fastcgi.com/'
-  sha1 '69c56548bf97040a61903b32679fe3e3b7d3c2d4'
-  version '2.4.6-boxen1'
+  sha1 'b0c8cfafcd403f109738da9c62d08c0c67d023521bf0bb5a465ece40b111726d'
+  version '2.4.7-boxen1'
 
-  mirror 'http://fossies.org/linux/www/apache_httpd_modules/mod_fastcgi-2.4.6.tar.gz'
+  mirror 'https://fossies.org/linux/www/apache_httpd_modules/mod_fastcgi-2.4.7-0910052141.tar.gz'
 
   option "with-brewed-httpd22", "Use Homebrew's Apache httpd 2.2"
   option "with-brewed-httpd24", "Use Homebrew's Apache httpd 2.4"
